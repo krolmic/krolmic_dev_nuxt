@@ -7,10 +7,11 @@
     Error occurred
   </section>
   <section v-else-if="articlesData">
-    <div v-for="article in articlesData.data">
-      <h2>{{ article.attributes.title }}</h2>
+    <article v-for="article in articlesData.data" :key="article.id">
+      <heading><strong>{{ article.attributes.title }}</strong></heading>
       <p>{{ article.attributes.description }}</p>
-    </div>
+      <NuxtLink :to="`/blog/${article.id}`">more</NuxtLink>
+    </article>
   </section>
 </template>
 

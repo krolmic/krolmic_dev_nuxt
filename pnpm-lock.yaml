@@ -4,6 +4,9 @@ dependencies:
   '@nuxtjs/robots':
     specifier: ^3.0.0
     version: 3.0.0
+  '@picocss/pico':
+    specifier: ^1.5.7
+    version: 1.5.7
 
 devDependencies:
   '@nuxtjs/strapi':
@@ -758,6 +761,10 @@ packages:
       - rollup
       - supports-color
     dev: true
+
+  /@picocss/pico@1.5.7:
+    resolution: {integrity: sha512-RygdXNlSXieAs9jMw/AeqA1ki1kldgEYbRn8BnYZIPfRTM5NWZ4uVzMK6uMPhYlRjoT5wD/OplZvIefnCqyDCQ==}
+    dev: false
 
   /@rollup/plugin-alias@4.0.3(rollup@3.20.2):
     resolution: {integrity: sha512-ZuDWE1q4PQDhvm/zc5Prun8sBpLJy41DMptYrS6MhAy9s9kL/doN1613BWfEchGVfKxzliJ3BjbOPizXX38DbQ==}
