@@ -8,9 +8,9 @@
   </section>
   <section v-else-if="articlesData">
     <article v-for="article in articlesData.data" :key="article.id">
-      <heading><strong>{{ article.attributes.title }}</strong></heading>
+      <h2><strong>{{ article.attributes.title }}</strong></h2>
       <p>{{ article.attributes.description }}</p>
-      <NuxtLink :to="`/blog/${article.id}`">more</NuxtLink>
+      <NuxtLink :to="`/blog/${article.attributes.slug}`">more</NuxtLink>
     </article>
   </section>
 </template>
@@ -24,5 +24,5 @@ const { data: articlesData, pending: pendingArticlesData, error: errorOnFetching
   () => find<Article>('articles')
 );
 
-watch(articlesData, (newArticlesData) => {});
+watch(articlesData, (newArticlesData) => { });
 </script>
