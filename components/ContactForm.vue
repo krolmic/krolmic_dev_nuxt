@@ -1,15 +1,14 @@
 <template>
     <div>
         <form @submit.prevent="submitForm">
-            <label for="name">Name:</label>
+            <label for="name">Name</label>
             <input type="text" id="name" v-model="form.name" required>
-            <label for="email">Email:</label>
+            <label for="email">Email</label>
             <input type="email" id="email" v-model="form.email" required>
-            <label for="message">Message:</label>
+            <label for="message">Message</label>
             <textarea id="message" v-model="form.message" required></textarea>
-            <button type="submit">Submit</button>
+            <button type="submit">Send</button>
         </form>
-        <hr />
         <div v-if="success" class="success-message">Success message</div>
         <div v-if="error" class="error-message">Error message</div>
     </div>

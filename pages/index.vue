@@ -1,8 +1,10 @@
 <template>
     <section>
     </section>
+    <hr />
     <section id="contact">
+        <h2>Interested in working together or having questions?</h2>
         <ContactForm />
-        Social media links
+        <ContactLinks />
     </section>
 </template>
