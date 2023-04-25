@@ -16,3 +16,9 @@ useHead({
   ],
 });
 </script>
+
+<style>
+h1 {
+  font-size: 4rem;
+}
+</style>
