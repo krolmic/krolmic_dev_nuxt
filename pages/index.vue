@@ -3,6 +3,6 @@
     </section>
     <section id="contact">
         <ContactForm />
-        Social media links
+        <ContactLinks />
     </section>
 </template>
