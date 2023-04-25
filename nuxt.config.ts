@@ -2,7 +2,8 @@
 export default defineNuxtConfig({
   modules: [
     '@nuxtjs/strapi',
-    '@nuxtjs/robots'
+    '@nuxtjs/robots',
+    'nuxt-icons',
   ],
   strapi: {
     url: 'https://api.krolmic.dev',
