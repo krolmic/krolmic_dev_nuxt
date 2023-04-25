@@ -6,7 +6,10 @@ dependencies:
     version: 3.0.0
   '@picocss/pico':
     specifier: ^1.5.7
-    version: 1.5.7
+    version: 1.5.10
+  nuxt-icons:
+    specifier: ^3.2.1
+    version: 3.2.1
 
 devDependencies:
   '@nuxtjs/strapi':
@@ -762,8 +765,8 @@ packages:
       - supports-color
     dev: true
 
-  /@picocss/pico@1.5.7:
-    resolution: {integrity: sha512-RygdXNlSXieAs9jMw/AeqA1ki1kldgEYbRn8BnYZIPfRTM5NWZ4uVzMK6uMPhYlRjoT5wD/OplZvIefnCqyDCQ==}
+  /@picocss/pico@1.5.10:
+    resolution: {integrity: sha512-+LafMsrwPxXQMk6sI///TmSInCwwZmq+K7SikyL3N/4GhhwzyPC+TQLUEqmrLyjluR+uIpFFcqjty30Rtr6GxQ==}
     dev: false
 
   /@rollup/plugin-alias@4.0.3(rollup@3.20.2):
@@ -2954,6 +2957,15 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
+
+  /nuxt-icons@3.2.1:
+    resolution: {integrity: sha512-trvAFq9oWYwWEQ0qZDHVxvLK+TwOdFnoXYOXQvN1CRUlp1DBJdxC8vXO3mED2Kb+Suag+bpWLC6eXGrRwhfffQ==}
+    dependencies:
+      '@nuxt/kit': 3.3.2(rollup@3.20.2)
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
+    dev: false
 
   /nuxt@3.3.2:
     resolution: {integrity: sha512-9xNd9+7M03oYktHnuEEgNRJYfkFwjlLvRi1NsEuEyzcc0SgazGZT89CBsQnlWI3wFMhoxoYPGJ8rc4sJAhJ1Gg==}
