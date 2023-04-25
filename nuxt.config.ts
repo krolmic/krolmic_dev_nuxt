@@ -12,5 +12,8 @@ export default defineNuxtConfig({
       UserAgent: '*',
       Disallow: '/'
     }
-  }
+  },
+  css: [
+    'assets/css/pico.css',
+  ],
 });
